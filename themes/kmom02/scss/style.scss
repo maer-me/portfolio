@@ -1,0 +1,12 @@
+@import '../../node_modules/normalize.css/normalize';
+@import './main/variables.scss';
+
+@import './main/general.scss';
+@import './main/typography.scss';
+@import './content-divs/blockquote.scss';
+@import './content-divs/code.scss';
+@import './content-divs/header.scss';
+@import './content-divs/title.scss';
+@import './content-divs/footer.scss';
+@import './device/mobile-menu.scss';
+@import './device/media.scss';

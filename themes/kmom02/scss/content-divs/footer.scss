@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid $border-color-footer;
+    color:$font-color-links;
+    padding: 0 1em;
+
+    a {
+        color: $font-color-links;
+    }
+
+    .social {
+        font-size: 2rem;
+    }
+}

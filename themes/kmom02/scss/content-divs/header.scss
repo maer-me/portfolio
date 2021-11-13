@@ -1,0 +1,19 @@
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    a {
+        color: $font-color-links;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    a:visited {
+        color: $font-color-links;
+    }
+}

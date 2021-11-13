@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: $background-color;
+}
+
+/* Placement */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header, .footer {
+    flex: 0 0 auto;
+    background-color: $background-color-footer;
+}
+
+.main {
+    width: 70%;
+    color: $font-color;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+
+img {
+    max-width: 100%;
+}
