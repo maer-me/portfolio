@@ -14,8 +14,9 @@
     padding: 0 1em;
 }
 
-.nav a, .nav-toggle {
-    color: $font-alternative-color;
+.nav a,
+.nav-toggle {
+    color: $font-color-links;
 }
 
 .nav-toggle {
@@ -43,7 +44,8 @@
         padding: 0.5em 0;
     }
 
-    .js .nav-toggle {
+    .js
+    .nav-toggle {
         display: block;
         float: right;
         width: 2em;

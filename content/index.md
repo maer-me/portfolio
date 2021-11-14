@@ -20,5 +20,5 @@ problemet. Jag har tidigare arbetat som tekniker på olika tillverkningsföretag
 och försökt använda samma tillvägagångssätt där, identifiera problemet,
 analysera orsaker och försök åtgärda. När jag inte jobbar eller pluggar,
 alltså de 45 minuterna per dag som blir över haha, så är mina stora intressen
-cykling, musik och friulftsliv. Slukar böcker när andan faller på, just nu
+cykling, musik och friluftsliv. Slukar böcker när andan faller på, just nu
 försöker jag mig på scifi, en genre jag aldrig fastnat för tidigare.

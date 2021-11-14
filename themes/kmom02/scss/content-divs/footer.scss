@@ -2,11 +2,12 @@
     display: flex;
     justify-content: space-between;
     border-top: 1px solid $border-color-footer;
-    color:$font-color-links;
-    padding: 0 1em;
+    color: $font-color-links;
+    padding: 1rem;
 
     a {
         color: $font-color-links;
+        text-decoration: none;
     }
 
     .social {

@@ -1,38 +1,70 @@
+html {
+    font-size: 100%;
+}
+
 body {
-    font-family: sans-serif;
     line-height: 1.5rem;
 }
 
-p, td, th, li, dd {
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 1em;
+}
+
+p,
+td,
+th,
+li,
+dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', sans-serif;
     margin-bottom: 0.6em;
     font-weight: bold;
 }
 
-.main h1 {
-    text-align: center;
-    padding-bottom: 0.5em;
-    border-bottom: 1px solid $main-h1-border-color;
+.main {
+    h1 {
+        text-align: center;
+        padding-bottom: 0.5em;
+        border-bottom: 1px solid $main-h1-border-color;
+    }
 
+    h2 {
+        text-align: center;
+        padding-bottom: 0.5em;
+        padding-top: 1em;
+    }
+
+    a {
+        text-decoration: none;
+        color: $font-color-links;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
 }
 
-.main h2 {
-    padding-top: 2em;
-    text-align: center;
-    padding-bottom: 0.5em;
+.title {
+    h1 {
+        font-family: 'Fira Code', sans-serif;
+    }
 }
 
-.main img{
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 1em;
-}
-
-.main a {
-    color: $font-color-links;
+pre,
+code {
+    font-family: 'Fira Code', monospace;
 }
