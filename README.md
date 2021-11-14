@@ -8,3 +8,8 @@ This portfolio is done as a project for school.
 - Changed logo picture
 - Index content changed to about-me with profile picture
 - Hobby page added
+
+### v2.0.0 - kmom02
+- SASS implementation added
+- Theme converted to SASS
+- About page added
