@@ -25,7 +25,7 @@ För den övergripande designen av mitt portfolioprojekt valde jag att skapa ett
 <br>
 <br>
 
-Jag har inte ändrat sidans grundstyle supermycket, förutom att implementera mitt tema så har jag justerat bredden för main lite beroende på skärmbredden. För mina typsnitt så har jag valt att ladda in tre stycken från Google fonts, Roboto för min brödtext (jag gillar Robot så jag lät det vara kvar efter exemplet), för mina rubriker använder jag Lato och till kodsegmenten och rubriken i Title-elementet använder jag Fira Code.
+Jag har inte ändrat sidans grundstyle supermycket, förutom att implementera mitt tema så har jag justerat bredden för main lite beroende på skärmbredden. För mina typsnitt så har jag valt att ladda in tre stycken från Google fonts, Roboto för min brödtext (jag gillar Roboto så jag lät det vara kvar efter exemplet), för mina rubriker använder jag Lato och till kodsegmenten och rubriken i Title-elementet använder jag Fira Code. Den extra funktionalitet som SASS erbjuder och som jag använt mig av i kmom02 är variabler och nästlade regler.
 <br>
 <br>
 Alla bilder, förutom mina privata, är hämtade från [unsplash](https://unsplash.com/) och licensfria.
