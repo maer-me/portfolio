@@ -9,7 +9,11 @@ This portfolio is done as a project for school.
 - Index content changed to about-me with profile picture
 - Hobby page added
 
-### v2.0.0 - kmom02
+### v2.0.0 - Kmom02
 - SASS implementation added
 - Theme converted to SASS
 - About page added
+
+### v3.0.0 - Kmom03
+- Technologies section added
+- Grid layout implemented for technologies
