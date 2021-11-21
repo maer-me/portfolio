@@ -7,10 +7,11 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Lato&family=Roboto&display=swap');
 
 @import '../../node_modules/normalize.css/normalize';
-@import './main/variables.';
+@import './main/variables';
 
 @import './main/general';
 @import './main/typography';
+@import './technologies';
 @import './content-divs/blockquote';
 @import './content-divs/code';
 @import './content-divs/header';

@@ -1,0 +1,11 @@
+.tech-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 8px;
+
+    a {
+        padding: 4px;
+        font-size: 22px;
+    }
+}

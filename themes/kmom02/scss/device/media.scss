@@ -21,6 +21,25 @@
     .main {
         width: 85%;
     }
+
+    .tech-nav {
+        display: none;
+    }
+
+    .tech-landing {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5em;
+
+        h1 {
+            grid-column: auto;
+        }
+    }
+
+    .tech-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (min-width: 1400px) {

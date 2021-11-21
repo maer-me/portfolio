@@ -51,3 +51,19 @@ body {
 img {
     max-width: 100%;
 }
+
+.tech-box {
+    color: $font-color;
+    background-color: $background-color-tech-box;
+    box-shadow: 5px 8px $shadow;
+    transition: box-shadow 0.2s;
+
+
+    .upper {
+        background-color: $background-color-footer;
+    }
+}
+
+.tech-box:hover {
+    box-shadow: 5px 8px $shadow-lighter;
+}

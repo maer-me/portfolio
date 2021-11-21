@@ -1,0 +1,16 @@
+.tech-box {
+    grid-column: span 1;
+    height: 15rem;
+
+    .upper {
+        height: 30%;
+        font-size: 32px;
+        padding-top: 0.5em;
+        padding-left: 0.5em;
+    }
+
+    .lower {
+        padding-top: 0.5em;
+        padding-left: 0.5em;
+    }
+}

@@ -6462,7 +6462,8 @@ template {
   padding: 0;
 }
 
-ol, ul {
+ol,
+ul {
   padding-left: 1.5em;
 }
 
@@ -6470,7 +6471,8 @@ ol, ul {
   display: none !important;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -6495,13 +6497,28 @@ body {
   width: 300px;
 }
 
-.header, .footer {
+.header,
+.footer {
   flex: 0 0 auto;
   background-color: #1e2022;
 }
 
 img {
   max-width: 100%;
+}
+
+.tech-box {
+  color: #86c7f3;
+  background-color: #2b3238;
+  box-shadow: 5px 8px #314b5c;
+  transition: box-shadow 0.2s;
+}
+.tech-box .upper {
+  background-color: #1e2022;
+}
+
+.tech-box:hover {
+  box-shadow: 5px 8px #5785a3;
 }
 
 html {
@@ -6520,13 +6537,22 @@ p {
   font-size: 1em;
 }
 
-p, td, th, li, dd {
+p,
+td,
+th,
+li,
+dd {
   text-align: justify;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Lato", sans-serif;
   margin-bottom: 0.6em;
   font-weight: bold;
@@ -6550,6 +6576,10 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: underline;
 }
 
+.tech-landing a:hover {
+  text-decoration: none;
+}
+
 .title h1 {
   font-family: "Fira Code", sans-serif;
 }
@@ -6557,6 +6587,49 @@ h1, h2, h3, h4, h5, h6 {
 pre,
 code {
   font-family: "Fira Code", monospace;
+}
+
+.tech-landing {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em 1em;
+}
+.tech-landing h1 {
+  grid-column: span 3;
+  justify-self: center;
+  border-style: none;
+}
+
+.tech-grid {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 1fr 3fr;
+}
+
+.tech-box {
+  grid-column: span 1;
+  height: 15rem;
+}
+.tech-box .upper {
+  height: 30%;
+  font-size: 32px;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+}
+.tech-box .lower {
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+}
+
+.tech-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 8px;
+}
+.tech-nav a {
+  padding: 4px;
+  font-size: 22px;
 }
 
 blockquote {
@@ -6598,7 +6671,8 @@ code {
   color: #444;
 }
 
-.header, .site-header {
+.header,
+.site-header {
   display: flex;
   justify-content: space-between;
 }
@@ -6614,7 +6688,8 @@ code {
   color: #b38dbf;
 }
 
-.title, .logo {
+.title,
+.logo {
   padding: 3em 3em 3em 0;
   margin-left: 2em;
 }
@@ -6661,7 +6736,8 @@ code {
   padding: 0 1em;
 }
 
-.nav a, .nav-toggle {
+.nav a,
+.nav-toggle {
   color: #b38dbf;
 }
 
@@ -6707,7 +6783,8 @@ code {
   }
 }
 @media (max-width: 767px) {
-  .title, .logo {
+  .title,
+.logo {
     padding: 1em 1em 1em 0;
   }
 
@@ -6721,6 +6798,24 @@ code {
 
   .main {
     width: 85%;
+  }
+
+  .tech-nav {
+    display: none;
+  }
+
+  .tech-landing {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+  }
+  .tech-landing h1 {
+    grid-column: auto;
+  }
+
+  .tech-grid {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
 @media (min-width: 1400px) {
