@@ -17,3 +17,9 @@ This portfolio is done as a project for school.
 ### v3.0.0 - Kmom03
 - Technologies section added
 - Grid layout implemented for technologies
+
+### v4.0.0 - Kmom04
+- Dark theme adjusted
+- Light theme added
+- Added ability to switch between themes
+- 'Reports' section added
