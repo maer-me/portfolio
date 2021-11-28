@@ -40,6 +40,12 @@ body {
         padding-bottom: 1em;
         width: 300px;
     }
+
+    .report-img {
+        width: 500px;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
 }
 
 .header,
@@ -58,9 +64,13 @@ img {
     box-shadow: 5px 8px $shadow;
     transition: box-shadow 0.2s;
 
-
     .upper {
-        background-color: $background-color-footer;
+        background-color: $background-color-techbox-upper;
+        color: $font-color-techbox-header;
+    }
+
+    .lower {
+        color: $font-color-links;
     }
 }
 

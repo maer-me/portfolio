@@ -10,6 +10,10 @@
         text-decoration: none;
     }
 
+    a:hover {
+        color: $font-color-links-alt;
+    }
+
     .social {
         font-size: 2rem;
     }

@@ -1,20 +1,23 @@
 /* Div colors */
-$background-color: #22262b;
-$background-alternative-color: #e0fbfc;
-$background-color-header: #1e2022;
-$background-color-footer: #1e2022;
-$background-color-code: #f5f5f5;
-$background-color-tech-box: #2b3238;
+$background-color: #fff;
+// $background-alternative-color: #e0fbfc;
+$background-color-header: #9baec4;
+$background-color-footer: #9baec4;
+$background-color-code: #223245;
+$background-color-tech-box: #9baec4;
+$background-color-techbox-upper: #6596ce;
 
 /* Font colors */
-$font-color: #86c7f3;
-$font-alternative-color: #444;
-$font-color-links: #b38dbf;
-$accent-color: #ee6c4d;
+$font-color: #363d45;
+$font-color-code: #fff;
+$font-color-links: #223245;
+$font-color-links-body: #6596ce;
+$font-color-links-alt: #6596ce;
+$font-color-techbox-header: #fff;
 
 /* Border colors */
-$border-color-code: #ccc;
-$border-color-footer: #222;
-$main-h1-border-color: #4fa8e4;
-$shadow: #314b5c;
-$shadow-lighter: #5785a3;
+$border-color-code: #223245;
+$border-color-footer: #000;
+$main-h1-border-color: #223245;
+$shadow: #223245;
+$shadow-lighter: #6596ce;

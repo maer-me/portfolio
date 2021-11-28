@@ -1,0 +1,21 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Lato&family=Roboto&display=swap');
+
+@import '../../node_modules/normalize.css/normalize';
+@import './main/variables-dark';
+
+@import './main/general';
+@import './main/typography';
+@import './technologies';
+@import './content-divs/blockquote';
+@import './content-divs/code';
+@import './content-divs/title';
+@import './content-divs/header';
+@import './content-divs/footer';
+@import './device/mobile-menu';
+@import './device/media';

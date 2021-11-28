@@ -1,10 +1,7 @@
 {
-  "name": "themes",
+  "name": "course-repo-validation-tools",
   "version": "1.0.0",
-  "main": "index.js",
-  "directories": {
-    "example": "example"
-  },
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
@@ -17,14 +14,21 @@
     "style-light": "sass kmom02/scss/style.scss kmom02/css/style.css --no-source-map",
     "style-light-min": "sass kmom02/scss/style.scss kmom02/css/style.min.css --no-source-map --style compressed"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "normalize.css": "^8.0.1",
-    "sass": "^1.43.5",
-    "stylelint": "^14.1.0",
-    "stylelint-config-sass-guidelines": "^9.0.1"
+    "clean-css": "^4.2.1",
+    "css-styleguide": "^0.9.6",
+    "eslint": "^8.3.0",
+    "eslint-plugin-react": "^7.4.0",
+    "got": "^11.8.2",
+    "html-minifier": "^4.0.0",
+    "javascript-style-guide": "^0.9.10",
+    "js-yaml": "^3.13.1",
+    "node-html-parser": "^5.0.0",
+    "stylelint": "^13.7.2",
+    "stylelint-config-sass-guidelines": "^7.1.0",
+    "uglify-js": "^3.6.5"
   },
-  "description": ""
+  "dependencies": {
+    "lighthouse": "^9.0.0"
+  }
 }

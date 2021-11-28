@@ -9,8 +9,12 @@
 }
 
 .title {
-    * {
+    a {
         color: $font-color-links;
+    }
+
+    a:hover {
+        color: $font-color-links-alt;
     }
 
     p {

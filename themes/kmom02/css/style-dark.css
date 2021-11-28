@@ -6477,7 +6477,7 @@ body {
 }
 
 body {
-  background-color: #fff;
+  background-color: #223245;
   display: flex;
   flex-direction: column;
 }
@@ -6486,7 +6486,7 @@ body {
   flex: 1 0 auto;
   margin: 0 auto;
   width: 70%;
-  color: #363d45;
+  color: #9baec4;
   padding-top: 2em;
   padding-bottom: 2em;
 }
@@ -6505,7 +6505,7 @@ body {
 .header,
 .footer {
   flex: 0 0 auto;
-  background-color: #9baec4;
+  background-color: #22262b;
 }
 
 img {
@@ -6513,21 +6513,21 @@ img {
 }
 
 .tech-box {
-  color: #363d45;
-  background-color: #9baec4;
-  box-shadow: 5px 8px #223245;
+  color: #9baec4;
+  background-color: #22262b;
+  box-shadow: 5px 8px #3b5678;
   transition: box-shadow 0.2s;
 }
 .tech-box .upper {
-  background-color: #6596ce;
-  color: #fff;
+  background-color: #9baec4;
+  color: #22262b;
 }
 .tech-box .lower {
-  color: #223245;
+  color: #9baec4;
 }
 
 .tech-box:hover {
-  box-shadow: 5px 8px #6596ce;
+  box-shadow: 5px 8px #9baec4;
 }
 
 html {
@@ -6570,7 +6570,7 @@ h6 {
 .main h1 {
   text-align: center;
   padding-bottom: 0.5em;
-  border-bottom: 1px solid #223245;
+  border-bottom: 1px solid #22262b;
 }
 .main h2 {
   text-align: center;
@@ -6579,7 +6579,7 @@ h6 {
 }
 .main a {
   text-decoration: none;
-  color: #6596ce;
+  color: #5f6a78;
 }
 .main a:hover {
   text-decoration: underline;
@@ -6642,31 +6642,31 @@ code {
   transition: color 0.2s;
 }
 .tech-nav a:hover {
-  color: #363d45;
+  color: #9baec4;
 }
 
 blockquote {
   font-style: italic;
   margin-left: 1em;
   padding-left: 1em;
-  border-left: 0.5em solid #223245;
+  border-left: 0.5em solid #3b5678;
 }
 
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 1px solid #223245;
+  border: 1px solid #3b5678;
   border-radius: 0.3em;
-  background: #223245;
+  background: #22262b;
   font-size: 0.85rem;
   line-height: 1.9824;
 }
 
 pre {
   padding: 0 1em;
-  border: 1px solid #223245;
+  border: 1px solid #3b5678;
   border-radius: 0.3em;
-  background: #223245;
+  background: #22262b;
 }
 
 pre code {
@@ -6681,25 +6681,7 @@ pre code {
 
 pre,
 code {
-  color: #fff;
-}
-
-.header,
-.site-header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.header a {
-  color: #223245;
-  text-decoration: none;
-  transition: color 0.2s;
-}
-.header a:visited {
-  color: #223245;
-}
-.header ul > li > a:hover {
-  color: #6596ce;
+  color: #9baec4;
 }
 
 .title,
@@ -6713,28 +6695,46 @@ code {
 }
 
 .title a {
-  color: #223245;
+  color: #9baec4;
 }
 .title a:hover {
-  color: #6596ce;
+  color: #3b5678;
 }
 .title p {
   font-style: italic;
 }
 
+.header,
+.site-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header a {
+  color: #9baec4;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.header a:visited {
+  color: #9baec4;
+}
+.header ul > li > a:hover {
+  color: #3b5678;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #000;
-  color: #223245;
+  border-top: 1px solid #222;
+  color: #9baec4;
   padding: 1rem;
 }
 .footer a {
-  color: #223245;
+  color: #9baec4;
   text-decoration: none;
 }
 .footer a:hover {
-  color: #6596ce;
+  color: #3b5678;
 }
 .footer .social {
   font-size: 2rem;
@@ -6758,7 +6758,7 @@ code {
 
 .nav a,
 .nav-toggle {
-  color: #223245;
+  color: #9baec4;
 }
 
 .nav-toggle {

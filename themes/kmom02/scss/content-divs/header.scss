@@ -8,13 +8,20 @@
     a {
         color: $font-color-links;
         text-decoration: none;
+        transition: color 0.2s;
     }
 
-    a:hover {
-        text-decoration: underline;
-    }
+    // a:hover {
+    //     text-decoration: underline;
+    //     color: $font-color;
+    // }
 
     a:visited {
         color: $font-color-links;
+    }
+
+    ul > li > a:hover {
+        // text-decoration: underline;
+        color: $font-color-links-alt;
     }
 }

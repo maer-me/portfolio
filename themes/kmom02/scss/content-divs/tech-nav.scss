@@ -1,11 +1,16 @@
 .tech-nav {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     padding-top: 8px;
 
     a {
         padding: 4px;
         font-size: 22px;
+        transition: color 0.2s;
+    }
+
+    a:hover {
+        color: $font-color;
     }
 }
