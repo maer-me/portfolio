@@ -1,5 +1,5 @@
 ---
-Title: Färger
+Title: 01_colors
 Description: A report on color use for three websites
 Template: report
 ---

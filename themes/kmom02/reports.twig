@@ -5,17 +5,19 @@
 
 	<div class="main tech-landing" role="main">
 		{{ content }}
-		{% for page in pages("report/reports") %}
-			<a href="{{page.url}}">
-				<div class="tech-box">
-					<div class="upper">
-						{{ page.title }}
+		{% for page in pages("analysis/") %}
+			{% if page.title != "Analysis" %}
+				<a href="{{page.url}}">
+					<div class="tech-box">
+						<div class="upper">
+							{{ page.title }}
+						</div>
+						<div class="lower">
+							{{ page.title}}
+						</div>
 					</div>
-					<div class="lower">
-						{{ page.title}}
-					</div>
-				</div>
-			</a>
+				</a>
+			{% endif %}
 		{% endfor %}
 	</div>
 

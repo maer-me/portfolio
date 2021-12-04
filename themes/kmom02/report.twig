@@ -6,10 +6,12 @@
 	<div class="main" role="main">
 		<div class="tech-grid">
 			<div class="tech-nav">
-				{% for page in pages("report/reports") %}
-					<a href="{{page.url}}">
-						{{ page.title }}
-					</a>
+				{% for page in pages("analysis/") %}
+					{% if page.title != "Analysis" %}
+						<a href="{{page.url}}">
+							{{ page.title }}
+						</a>
+					{% endif %}
 				{% endfor %}
 			</div>
 			<div class="tech-content">
