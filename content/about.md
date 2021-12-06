@@ -1,6 +1,7 @@
 ---
 Title: About
 Descripition: About the technologies used on this website
+Template: index
 ---
 
 Om sidan och dess teknologier

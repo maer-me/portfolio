@@ -1,6 +1,7 @@
 ---
 Title: Hobby
 Description: Page about my hobby
+Template: index
 ---
 
 Min hobby
